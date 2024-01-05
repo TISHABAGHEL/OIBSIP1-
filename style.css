@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+body{
+    background-color: #a07178;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #796383;
+    padding-top:10px;
+    align-items: center;
+
+
+    
+}
+.name{
+    font-size: 2rem;
+    color:#3f0003;
+    font-weight: 700;
+    font-family: 'Permanent Marker', cursive;
+
+}
+div a{
+ 
+    text-decoration: none;
+    margin:5px;
+    font-size: 1rem;
+    color: black;
+    align-items: center;
+}
+.nav-search{
+    display:flex;
+    width:400px;
+    height:40px;
+  
+     justify-content: space-evenly;
+
+}
+.search-input{
+    width:300%;
+    font-size:1rem;
+    border:none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-left:2px;
+    
+}
+.search-icon{
+    width:140px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #3f0003;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:white;
+    padding-bottom:12px;
+    padding-left:2px;
+}
+.right-nav{
+    display: flex;
+    margin:12px;
+    font-size: 1rem;
+}
+.right-nav p{
+    margin:7px;
+}
+ div i{
+    padding-top:10px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.checkeded{
+    color: #ffffff;
+}
+.checkeded:hover{
+    color: #73040a87;
+
+}
+main{
+width:50%;
+ height:100%;
+position: relative;
+margin-top:40px;
+margin-left: 70px;
+
+align-items: center;
+}
+
+.silder{
+   width:1000px;
+   height: 400px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 10px black;
+  animation: silder 9s infinite linear;
+  background-image: url("photo-1550344071-13ecada2a91d.avif");
+
+}
+@keyframes silder{
+    0%{ background-image: url("photo-1550344071-13ecada2a91d.avif");}
+    50%{background-image: url("istockphoto-653003428-1024x1024.jpg");}
+    75%{background-image: url("1190462.jpg"); }
+    95%{background-image: url("DSC_1596-769.jpg");}
+    100%{background-image: url("female-5582981_1280.jpg") ;   }
+    75%{background-image: url("footwear-1838767_1280.jpg");}
+    55%{background-image: url("wp2004296.jpg");}
+    35%{background-image: url("istockphoto-857323498-1024x1024.jpg");}
+    0%{background-image: url("beauty-products-and-makeup-on-black-background.jpg");}
+}
